@@ -4,7 +4,7 @@
 #
 Name     : mvn-xmlunit
 Version  : 1.5
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.jar
 Source0  : https://repo1.maven.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.jar
 Source1  : https://repo1.maven.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.pom
@@ -29,11 +29,11 @@ data components for the mvn-xmlunit package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/xmlunit/t/1.5
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/xmlunit/t/1.5
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/xmlunit/xmlunit/1.5
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/xmlunit/xmlunit/1.5
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/xmlunit/t/1.5
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/xmlunit/t/1.5
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/xmlunit/xmlunit/1.5
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/xmlunit/xmlunit/1.5
 
 
 %files
@@ -41,5 +41,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/xmlunit/t/1.5
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/xmlunit/t/1.5/xmlunit-1.5.jar
-/usr/share/java/.m2/repository/xmlunit/t/1.5/xmlunit-1.5.pom
+/usr/share/java/.m2/repository/xmlunit/xmlunit/1.5/xmlunit-1.5.jar
+/usr/share/java/.m2/repository/xmlunit/xmlunit/1.5/xmlunit-1.5.pom
