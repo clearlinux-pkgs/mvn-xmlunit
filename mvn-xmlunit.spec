@@ -4,7 +4,7 @@
 #
 Name     : mvn-xmlunit
 Version  : 1.5
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.jar
 Source0  : https://repo1.maven.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.jar
 Source1  : https://repo1.maven.org/maven2/xmlunit/xmlunit/1.5/xmlunit-1.5.pom
